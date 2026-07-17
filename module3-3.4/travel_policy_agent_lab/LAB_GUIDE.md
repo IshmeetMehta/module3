@@ -102,6 +102,17 @@ python3 travel_policy_agent_lab/travel_policy_agent/agent.py
 
 Now that the server compiles and starts up, you will notice that the very first query works perfectly, but the **second request onwards crashes** with an async error!
 
+Prompt to Antigravity
+```text
+
+Run the server . Run this curl request two times to see if server is working correctly.
+
+curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
+```
+
+
+OR
+
 ### Step 1: Trigger the Runtime Error
 Start the server and run your first chat query:
 ```bash
