@@ -52,6 +52,7 @@ With the `agents-cli` skill ready, trigger the cloud packaging and deployment.
 *   **Prompt to Antigravity:**
     ```text
     /goal Scaffold and deploy our local Travel Policy Agent on Agent Engine using the agents-cli skill.
+    Use PyPi packages to install agents-cli and google-adk.
 
     - Context: The application entrypoint is main.py, which imports the core agent from the travel_policy_agent/ subdirectory.
     - Target: Deploy to Vertex AI Agent Engine (agent_runtime) in us-central1.
