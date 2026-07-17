@@ -46,9 +46,10 @@ Prompt Antigravity:
 
 ```text 
 
-    Install travel_policy agent requirements and start the agent
+    Start the travel_policy_agent.Stop if you see errors.
 ```
 
+OR
 
 From the `module3-3.4` root directory, execute the following commands in your terminal:
 
@@ -114,7 +115,7 @@ Prompt Antigravity
 
 ```text
 
-Run this command twice and check server logs .curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
+Run this command twice and review server logs for any errors .curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
 
 ```
 
