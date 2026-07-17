@@ -42,6 +42,14 @@ module3-3.4/
 Before you can even run the server to measure performance, you must resolve an immediate startup crash left by the intern.
 
 ### Step 1: Attempt to Start the FastAPI Server
+Prompt Antigravity:
+
+```text 
+
+    Install travel_policy agent requirements and start the agent
+```
+
+
 From the `module3-3.4` root directory, execute the following commands in your terminal:
 
 ```bash
@@ -102,16 +110,13 @@ python3 travel_policy_agent_lab/travel_policy_agent/agent.py
 
 Now that the server compiles and starts up, you will notice that the very first query works perfectly, but the **second request onwards crashes** with an async error!
 
-Prompt to Antigravity
+Prompt Antigravity
+
 ```text
 
-Run the server . Run this curl request two times to see if server is working correctly.
+Run this command twice and check server logs .curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
 
-curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
 ```
-
-
-OR
 
 ### Step 1: Trigger the Runtime Error
 Start the server and run your first chat query:
