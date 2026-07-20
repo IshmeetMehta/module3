@@ -115,7 +115,7 @@ Prompt Antigravity
 
 ```text
 
-Run this command twice and review server logs for any errors .curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
+Run this command twice and stop to review server logs for any errors .curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": "Hi"}'
 
 ```
 
